@@ -54,35 +54,8 @@ india_wind_w1_forecast/
 │   ├── fig7_scenario.png
 │   ├── fig8_all_models.png
 │   └── fig9_cagr.png
-│
-├── generate_report.js            ← Word report generator (Node.js)
-└── report/
-    └── India_Wind_Capacity_Outlook_2030.docx
-```
-
 ---
 
-## 🚀 Quick Start
-
-### Step 1 — Install Python dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### Step 2 — Generate all figures
-```bash
-python run_all.py
-```
-All 9 PNG figures are saved to `plots/`.  
-Forecast data is saved to `data/forecast_results.json`.
-
-### Step 3 (optional) — Generate Word report
-```bash
-npm install -g docx
-python run_all.py --report
-```
-
----
 
 ## 🤖 ML Models
 
